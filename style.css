@@ -1,0 +1,327 @@
+/* CSS file used for styling all pages of the Bollywood website */
+
+/* Styles the top image and text that is placed on the top image */
+.top > a:hover {
+	background-color:purple;
+}
+
+.top > a:active {
+	background-color:grey;
+}
+
+.header-images {
+	height: 400px;
+	width: 1300px;
+	filter: brightness(30%);
+	position:relative;
+}
+
+.top {
+	position: relative;
+	text-align: center;
+}
+
+.centre-top{
+	color:white;
+	font-size: 75px;
+	position: absolute;
+	top: 34%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.top-text {
+	position: absolute;
+	color:lightgrey;
+	font-size: 20px;
+}
+
+.top-right {
+	top: 10px;
+}
+
+.home-top-right {
+	left: 10%;
+}
+
+.movies-top-right {
+	left: 25%;
+}
+
+.singers-top-right {
+	left: 40%;
+}
+
+.songs-top-right {
+	left: 55%;
+}
+
+.actors-top-right {
+	left: 70%;
+}
+
+.platforms-top-right{
+	left: 82.5%;
+}
+
+.reference-bottom-right {
+	bottom: 11px;
+	left: 47%;
+}
+
+/* Styles text of the page that user is on, on the top navigation bar */
+.selected-page {
+	background-color: #B19CD8;
+	padding:5px;
+}
+
+/* Styles boxes that lead to various links / parts of pages */
+.boxes {
+	text-align:center;
+	display: block;
+	margin-top: 1px;
+	position: absolute;
+}
+
+.boxes h3 {
+	padding:70px;
+}
+
+.first-box {
+	margin-left:76px;
+	margin-right:1200px;
+	display: block;
+}
+
+.second-box {
+	margin-left:307px;
+	margin-right:880px;
+	display: block;
+}
+
+.third-box {
+	margin-left:544px;
+	margin-right:587px;
+	display: block;
+}
+
+.fourth-box {
+	margin-left:766px;
+	margin-right:600px;
+	display: block;
+}
+
+.fifth-box {
+	margin-left:995px;
+	margin-right:100px;
+	display: block;
+}
+
+/* Styles ids of boxes that require background colour when hovered and when not*/
+#singers-box { 
+	background-color: violet;
+}
+
+#songs-box { 
+	background-color: #90EE90;
+}
+
+#actors-box { 
+	background-color: #AEF6CF;
+}
+
+#platforms-box { 
+	background-color: #F9E076;
+}
+
+#movies-box { 
+	background-color: #C4A484;
+}
+
+#hotstar-box {
+	background-color: #EBE1B9;
+}
+
+#zee5-box {
+	background-color: #F4CEB8;
+}
+
+#sonyliv-box {
+	background-color: #FEE1D4;
+}
+
+/* Styles classes of boxes that require background colour when hovered and when not*/
+.romance-box {
+	background-color: #F29EA7;
+}
+
+.horror-box {
+	background-color: #D9E6F3;
+}
+
+.comedy-box {
+	background-color: #FDCFB3;
+}
+
+.romantic-box {
+	background-color: #ED7855;
+}
+
+.heartbreak-box {
+	background-color: #D7ECD9;
+}
+
+.party-box {
+	background-color: #85687C;
+}
+
+/* When boxes are hovered */
+#singers-box:hover, #songs-box:hover, #actors-box:hover, #platforms-box:hover, #movies-box:hover,#hotstar-box:hover, #zee5-box:hover, 
+#sonyliv-box:hover, .romance-box:hover,.horror-box:hover, .comedy-box:hover, .romantic-box:hover, .heartbreak-box:hover, .party-box:hover{ 
+	background-color: lightgrey;
+}
+
+/* Style for all default paragraph tags */
+p {
+	font-size: 20px;
+	text-align:center;
+	font-family: LucidaHandwriting;
+}
+
+/* Style for all default h2 tags */
+h2 {
+	font-size:29px;
+}
+
+/* Style for all default h3 tags */
+h3 {
+	font-size:26px;
+}
+
+/* Style for all default h4 tags */
+h4 {
+	font-size:15px;
+}
+
+/* Style for all default ordered lists */
+ol {
+	font-size:29px;
+}
+
+/* Style for all default iFrames */
+iframe {
+	width:600px;
+	height:315px;
+	display: block; 
+	float:left;
+}
+
+/* Adds background colour to all pages of the website */
+body {
+	background-color: #C8B7A6;
+}
+
+/* Styles the tables */
+table {
+  font-family: serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th, table {
+  border: 2px solid black;
+  text-align: center;
+  padding: 8px;
+}
+
+.hover-rows:hover {
+	background-color:grey;
+}
+
+/* Styles some table rows */
+.table-bg {
+	background-color:#A69584;
+}
+
+/* Classes for styling special text */
+.source-images-platforms {
+	margin-left:3%;
+}
+
+.source-images {
+	font-size: 12px;
+	float:left;
+	text-align:left;
+}
+
+.intro-text {
+	font-family: monospace;
+	text-align:center;
+}
+
+.song-movie-titles {
+	font-size:22px;
+}
+
+/* Styles for references page */
+#citation-bg {
+	margin-right:15px;
+	margin-left:15px;
+	background-color:#A69584;
+}
+
+/* Styles citation text */
+#citation-align {
+	text-align:left;
+}
+
+/* Styles images */
+
+/* Styles images of actors */
+.actor-images {
+	width:150px;
+	height:150px;
+}
+
+/* Styles images of streaming platforms */
+.platforms-images {
+	width:300px;
+	height:300px;
+	display: block; 
+	float:left;
+	margin-left:3%;
+}
+
+/* Styles images of movies */
+.movie-images {
+	float:left;
+	width: 300px;
+	height: 300px;
+}
+
+/* Styles code validation images */
+.validation-images {
+	width:120px;
+	height:75px;
+}
+
+/* Styles the image used for the footer */
+.footer-image {
+	width:150px;
+	height:150px;
+	margin-left:20%;
+	float:left;
+}
+
+/* Styles the footer */
+.footer {
+	background-color: grey;
+	color: white;
+	font-size: 20px;
+	font-family: Lato;
+}
+
+/* Styles copyright symbol */
+.copyright-align {
+	margin-right:-1160px;
+}
